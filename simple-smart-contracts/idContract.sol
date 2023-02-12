@@ -8,4 +8,8 @@ contract addingAnId {
     function setId(uint256 _id) public {
         id = _id;
     }
+
+    function returnId() public view returns (uint256) {
+        return id;
+    }
 }
